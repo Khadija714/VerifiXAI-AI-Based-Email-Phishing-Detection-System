@@ -1,9 +1,9 @@
 ## 🛡️ VerifiXAI — AI-Based Email Phishing Detection System
 
-VerifiXAI is a complete **AI-powered email phishing detection system** that uses **Machine Learning**, **Natural Language Processing**, and **Explainable AI (SHAP)** to identify phishing emails with **95%+ accuracy**. It provides real-time analysis, user authentication, scan history, and an admin dashboard — all in a secure, scalable package.
+VerifiXAI is a complete **AI-powered email phishing detection system** that uses **Machine Learning**, **Natural Language Processing**, and **Explainable AI (SHAP)** to identify phishing emails with **92%+ accuracy**. It provides real-time analysis, user authentication, scan history, and an admin dashboard — all in a secure, scalable package.
 
 ## Key Features:
-1. AI-Powered Detection — Uses a Random Forest classifier trained on 80,000+ emails with 95%+ accuracy.
+1. AI-Powered Detection — Uses a Random Forest classifier trained on 25,000+ emails with 92%+ accuracy.
 
 2. Explainable AI (SHAP) — Provides detailed, human-readable explanations for why an email is flagged as phishing or safe.
 
@@ -24,9 +24,13 @@ VerifiXAI is a complete **AI-powered email phishing detection system** that uses
 1. Frontend HTML5, CSS3, JavaScript
 
 2. Backend	FastAPI (Python)
+
 3. Machine Learning	scikit-learn, NLTK, SHAP
+
 4. Database	MySQL
+
 5. Authentication	JWT (PyJWT) + bcrypt
+
 6. Deployment	Uvicorn (ASGI server)
 
 
@@ -48,31 +52,32 @@ VerifiXAI is a complete **AI-powered email phishing detection system** that uses
 
 ## ├── ├── frontend/
 
-├── │   ├── index.html           # Landing page
+├── index.html           # Landing page
 
-├── │   ├── user_login.html      # User login
+├── user_login.html      # User login
 
-├── │   ├── register.html        # User registration
+├── register.html        # User registration
 
-├── │   ├── user_dashboard.html  # User dashboard
+├── user_dashboard.html  # User dashboard
 
-├── │   ├── admin_login.html     # Admin login
+├── admin_login.html     # Admin login
 
-├── │   ├── admin_dashboard.html # Admin panel
+├── admin_dashboard.html # Admin panel
 
-├── │   └── api.js               # Frontend-backend API client
+└── api.js               # Frontend-backend API client
 
 ## ├── ├── models/
 
-├── │   ├── rf_model.pkl         # Trained Random Forest model
+├── rf_model.pkl         # Trained Random Forest model
 
-├── │   └── tfidf_vectorizer.pkl # TF-IDF vectorizer
+└── tfidf_vectorizer.pkl # TF-IDF vectorizer
 
 ## ├── ├── dataset/                 # Training dataset (CSV)
 
 ## ├── ├── .env                     # Environment variables
 
 ## └── └── requirements.txt         # Python dependencies
+
 
 ## Screenshots
 

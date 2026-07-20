@@ -21,13 +21,13 @@ VerifiXAI is a complete **AI-powered email phishing detection system** that uses
 
 
 ## Tech Stack:
-Layer	Technology
-Frontend HTML5, CSS3, JavaScript
-Backend	FastAPI (Python)
-Machine Learning	scikit-learn, NLTK, SHAP
-Database	MySQL
-Authentication	JWT (PyJWT) + bcrypt
-Deployment	Uvicorn (ASGI server)
+1. Frontend HTML5, CSS3, JavaScript
+
+2. Backend	FastAPI (Python)
+3. Machine Learning	scikit-learn, NLTK, SHAP
+4. Database	MySQL
+5. Authentication	JWT (PyJWT) + bcrypt
+6. Deployment	Uvicorn (ASGI server)
 
 
 ## Project Structure:

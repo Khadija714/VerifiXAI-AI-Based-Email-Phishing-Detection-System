@@ -3,24 +3,32 @@
 VerifiXAI is a complete **AI-powered email phishing detection system** that uses **Machine Learning**, **Natural Language Processing**, and **Explainable AI (SHAP)** to identify phishing emails with **95%+ accuracy**. It provides real-time analysis, user authentication, scan history, and an admin dashboard — all in a secure, scalable package.
 
 ## Key Features:
-AI-Powered Detection — Uses a Random Forest classifier trained on 80,000+ emails with 95%+ accuracy.
+1. AI-Powered Detection — Uses a Random Forest classifier trained on 80,000+ emails with 95%+ accuracy.
 
-Explainable AI (SHAP) — Provides detailed, human-readable explanations for why an email is flagged as phishing or safe.
-Real-Time Analysis — Paste or upload .txt files for instant email scanning.
-User Authentication — Secure registration and login with JWT tokens.
-Scan History — Users can view all past email analyses.
-Dashboard & Statistics — Visual insights into total scans, phishing vs. safe emails, and user activity.
-Admin Panel — Manage users, view system analytics, and monitor ML model performance.
-Secure & Scalable — Password hashing with bcrypt, JWT authentication, and MySQL database.
+2. Explainable AI (SHAP) — Provides detailed, human-readable explanations for why an email is flagged as phishing or safe.
+
+3. Real-Time Analysis — Paste or upload .txt files for instant email scanning.
+
+4. User Authentication — Secure registration and login with JWT tokens.
+
+5. Scan History — Users can view all past email analyses.
+
+6. Dashboard & Statistics — Visual insights into total scans, phishing vs. safe emails, and user activity.
+
+7. Admin Panel — Manage users, view system analytics, and monitor ML model performance.
+
+8. Secure & Scalable — Password hashing with bcrypt, JWT authentication, and MySQL database.
+
 
 ## Tech Stack:
 Layer	Technology
-Frontend	HTML5, CSS3, JavaScript
+Frontend HTML5, CSS3, JavaScript
 Backend	FastAPI (Python)
 Machine Learning	scikit-learn, NLTK, SHAP
 Database	MySQL
 Authentication	JWT (PyJWT) + bcrypt
 Deployment	Uvicorn (ASGI server)
+
 
 ## Project Structure:
 text

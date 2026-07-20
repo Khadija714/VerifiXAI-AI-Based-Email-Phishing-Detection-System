@@ -36,15 +36,15 @@ VerifiXAI is a complete **AI-powered email phishing detection system** that uses
 
 ## ├── ├── backend/
 
-├── │   ├── main.py              # FastAPI application
+├── main.py              # FastAPI application
 
-├── │   ├── db_connector.py      # MySQL database handler
+├── db_connector.py      # MySQL database handler
 
-├── │   ├── preprocessor.py      # NLP text preprocessing
+├── preprocessor.py      # NLP text preprocessing
 
-├── │   ├── shap_explainer.py    # SHAP explainability logic
+├── shap_explainer.py    # SHAP explainability logic
 
-├── │   └── ml_model.py          # Model training & prediction
+└── ml_model.py          # Model training & prediction
 
 ## ├── ├── frontend/
 

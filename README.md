@@ -36,7 +36,7 @@ VerifiXAI is a complete **AI-powered email phishing detection system** that uses
 
 ## Project Structure:
 
-├── ## VerifiXAI/
+## ├── ## VerifiXAI/
 
 ## ├── ├── backend/
 

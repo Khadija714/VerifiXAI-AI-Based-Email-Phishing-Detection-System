@@ -31,32 +31,48 @@ VerifiXAI is a complete **AI-powered email phishing detection system** that uses
 
 
 ## Project Structure:
-text
-VerifiXAI/
-.
-├── ## 📁 Project Structure
-├── ```text
-├── VerifiXAI/
-├── ├── backend/
+
+├── ## VerifiXAI/
+
+## ├── ├── backend/
+
 ├── │   ├── main.py              # FastAPI application
+
 ├── │   ├── db_connector.py      # MySQL database handler
+
 ├── │   ├── preprocessor.py      # NLP text preprocessing
+
 ├── │   ├── shap_explainer.py    # SHAP explainability logic
+
 ├── │   └── ml_model.py          # Model training & prediction
-├── ├── frontend/
+
+## ├── ├── frontend/
+
 ├── │   ├── index.html           # Landing page
+
 ├── │   ├── user_login.html      # User login
+
 ├── │   ├── register.html        # User registration
+
 ├── │   ├── user_dashboard.html  # User dashboard
+
 ├── │   ├── admin_login.html     # Admin login
+
 ├── │   ├── admin_dashboard.html # Admin panel
+
 ├── │   └── api.js               # Frontend-backend API client
-├── ├── models/
+
+## ├── ├── models/
+
 ├── │   ├── rf_model.pkl         # Trained Random Forest model
+
 ├── │   └── tfidf_vectorizer.pkl # TF-IDF vectorizer
-├── ├── dataset/                 # Training dataset (CSV)
-├── ├── .env                     # Environment variables
-└── └── requirements.txt         # Python dependencies
+
+## ├── ├── dataset/                 # Training dataset (CSV)
+
+## ├── ├── .env                     # Environment variables
+
+## └── └── requirements.txt         # Python dependencies
 
 ## Screenshots
 

@@ -13,11 +13,11 @@ VerifiXAI is a complete **AI-powered email phishing detection system** that uses
 
 5. Scan History — Users can view `all past email analyses`.
 
-6. Dashboard & Statistics — Visual insights into total scans, phishing vs. safe emails, and user activity.
+6. Dashboard & Statistics — Visual insights into `total scans`, `phishing` vs. `safe emails`, and `user activity`.
 
-7. Admin Panel — Manage users, view system analytics, and monitor ML model performance.
+7. Admin Panel — Admin `Manage users`, `view system analytics`, and `monitor ML model performance`.
 
-8. Secure & Scalable — Password hashing with bcrypt, JWT authentication, and MySQL database.
+8. Secure & Scalable — Password hashing with `bcrypt`, `JWT authentication`, and `MySQL database`.
 
 
 ## Tech Stack:

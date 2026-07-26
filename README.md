@@ -1,6 +1,6 @@
 ## 🛡️ VerifiXAI — AI-Based Email Phishing Detection System
 
-VerifiXAI is a complete **AI-powered email phishing detection system** that uses **Machine Learning**, **Natural Language Processing**, and **Explainable AI (SHAP)** to identify phishing emails with **92%+ accuracy**. It provides real-time analysis, user authentication, scan history, and an admin dashboard — all in a secure, scalable package.
+VerifiXAI is a complete **AI-powered email phishing detection system** that uses **Machine Learning**, **Natural Language Processing**, and **Explainable AI (SHAP)** to identify phishing emails with `**92%+ accuracy**`. It provides real-time analysis, user authentication, scan history, and an admin dashboard — all in a secure, scalable package.
 
 ## Key Features:
 1. AI-Powered Detection — Uses a Random Forest classifier trained on 25,000+ emails with 92%+ accuracy.
